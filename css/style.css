@@ -1,0 +1,222 @@
+body {
+  margin: 0px;
+  background-color: #fff;
+  direction: rtl;
+  color: white;
+}
+
+/* العام */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+
+/* Header */
+.navbar {
+  position: fixed !important;
+  z-index: 3;
+  width: 100%;
+  height: 75px;
+  background: #006c74;
+  overflow: hidden;
+}
+/* الشعار */
+.logo {
+  font-size: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.logo .s1 {
+  color: #ca812b;
+}
+
+.navbar a:hover {
+  color: #ca812b;
+}
+.navbar .mune ul {
+  display: flex;
+  font-size: 20px;
+}
+.navbar .mune li {
+  margin-right: 20px;
+}
+/* End Header */
+
+
+/* الصور +الحكمة */
+.scshen {
+  background-image: url("../imag/Home/12.jpg");
+  z-index: 2;
+  text-align: right;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.scshen .caver {
+  width: 100%;
+  height: 790px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.text-one h1 {
+  position: relative;
+  top: 300px;
+
+  font-size: 35px;
+  line-height: 60px;
+}
+
+.text-one span {
+  background: #ca812b;
+}
+/* نهاية*/ 
+
+
+
+/* بداية الحكمة */
+
+.section-to {
+  max-width: 100%;
+  height: auto;
+
+  background: #006c74;
+  font-size: 25px;
+  padding: 20px 0;
+}
+
+.section-to .text-to h2 {
+  margin: 0;
+  font-size: 35px;
+  text-align: center !important;
+}
+.text-to span {
+  font-size: 22px;
+}
+@media (max-width: 576px) {
+  .section-to .text-to h2,
+  .section-to,
+  span {
+    font-size: 20px;
+  }
+}
+
+/* نهاية*/
+
+
+/* sidBar القوائم الجانبية  */
+.saede-bar {
+  line-height: 40px;
+  text-align: right;
+  height: 590px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px #808385, -7px -7px 14px #ffffff;
+  margin-bottom: 40px;
+}
+
+.saede-bar .img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+.saede-bar h2 {
+  text-align: center;
+  color: #45b09e;
+}
+
+.saede-bar a {
+  color: rgba(0, 0, 0, 0.644);
+  font-weight: 500;
+  font-size: 18px;
+  font-family: system-ui;
+}
+
+.saede-bar a:hover {
+  color: rgb(248, 248, 248);
+  background-color: #ca812b;
+  width: 100%;
+  font-size: 18px;
+  line-height: 40px;
+  font-family: system-ui;
+  padding: 5px;
+}
+
+/* النهاية */
+
+
+/* العناون لكل قسم  */
+section .title {
+  border: 1px solid #dadde1;
+  border-right-width: 6px;
+  border-right-color: var(--textHeader);
+
+  font-size: 15px;
+  padding-right: 25px;
+  margin-bottom: 20px;
+  color: #45b09e;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*  ا الكتاب */
+.card {
+  padding: 16px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.527);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  margin: 0 0 60px 0;
+}
+
+.card img {
+  width: 80%;
+  height: 300px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin: 0;
+}
+.card a {
+  color: #1818b59e;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/*  نهاية الكتاب */
+
+
+
+
+/* النهاية الموقع او التذيل */
+
+footer {
+  width: 100%;
+  height: 70px;
+  background: #006c74;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .text {
+  color: #ffffffa2;
+  font-size: 18px;
+  font-weight: 500;
+}
+footer .text span {
+  color: #ca802bc5 !important;
+  font-weight: 500;
+}
+
